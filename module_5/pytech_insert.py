@@ -111,14 +111,14 @@ frodo = {
 students = db.students
 
 # insert statements with output 
-print("\n  --INSERT STATEMENTS --")
+print("\n  -- INSERT STATEMENTS --")
 thorin_student_id = students.insert_one(thorin).inserted_id
-print("  Inserted student record Thorin Oakenshield into the students collection with student_id " + str(thorin_student_id))
+print("  Inserted student record Thorin Oakenshield into the students collection with document_id " + str(thorin_student_id))
 
 bilbo_student_id = students.insert_one(bilbo).inserted_id
-print("  Inserted student record Bilbo Baggins into the students collection with student_id " + str(bilbo_student_id))
+print("  Inserted student record Bilbo Baggins into the students collection with document_id " + str(bilbo_student_id))
 
 frodo_student_id = students.insert_one(frodo).inserted_id
-print("  Inserted student record Frodo Baggins into the students collection with student_id " + str(frodo_student_id))
+print("  Inserted student record Frodo Baggins into the students collection with document_id " + str(frodo_student_id))
 
 input("\n\n  End of program, press any key to exit... ")
