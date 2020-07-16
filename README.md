@@ -21,6 +21,13 @@ Most exercises and assignments have accompanying solutions, so you can visually 
 
 Approach this course from top-to-bottom and do not move on to the next exercise or assignment without fully understanding the previous one.  The Reading & Videos section are critical to learning the material.  Do not just scan over what I've provided.  
 
+## Dependencies
+```bash
+    pip install pymongo
+    pip install pymongo[srv]
+    pip install pylint
+    pip install mysql-connector-python
+```
 
 ```bash
 git clone https://github.com/buwebdev/csd-310.git
