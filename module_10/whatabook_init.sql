@@ -128,4 +128,4 @@ INSERT INTO wishlist(user_id, book_id)
     VALUES (
         (SELECT user_id FROM user WHERE first_name = 'Frodo'),
         (SELECT book_id FROM book WHERE book_name = 'The Return of the King')
-    )
+    );
